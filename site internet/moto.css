@@ -1,0 +1,92 @@
+
+/* Styles pour les liens de la barre de navigation */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* Styles pour les liens de la barre de navigation au survol */
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Styles pour le bouton de bascule de la barre de navigation */
+#toggleBtn {
+    margin: 20px;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+body{
+    background:url("https://sx-chaumont-semoutiers.com/wp-content/uploads/2022/02/0cdbeac54eca78fcee4fadead9dc9b44-1536x1025.jpg");
+    background-size: 100%;
+}
+.taille{
+    size: 20%;
+}
+.container{
+    height: 800%;
+}
+.modif-p{
+    color: white;
+    font-size: 200%;
+}
+.modif-h{
+    color: orange;
+    
+}
+.container-img1>img{
+    justify-content: space-evenly;
+    width: 33%;
+}
+.container-img2>img{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.modif-h1{
+    color: orange;
+   
+}
+.modif-h2{
+    color: orange;
+    
+}
+.modif-f1{
+    font-size: 200%;
+    color: white;
+    
+}
+.modif-f2{
+    font-size: 200%;
+    color: white;
+   
+}
+
+.modif-f3{
+    font-size: 200%;
+    color: white;
+}
+.modif-f3>img{
+    width: 35%;
+}
+.modif-f4{
+    font-size: 200%;
+    color: white;
+}
+.modif-f4>img{
+    width: 100%;
+}
+.modif-f5{
+    font-size: 200%;
+    color: white;
+}
+.modif-f5>img{
+    width:50%
+}

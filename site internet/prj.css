@@ -1,0 +1,119 @@
+/* Importation des polices */
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('Bailenson.otf') format('opentype'),
+         url('Bailenson.ttf') format('truetype');
+}
+
+/* Styles pour les liens de la barre de navigation */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/* Styles pour les liens de la barre de navigation au survol */
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar {
+    background-color: #3498db;
+}
+
+/* Styles pour le bouton de bascule de la barre de navigation */
+/* Ajout d'un point-virgule à la fin pour éviter des erreurs potentielles */
+#toggleBtn {
+    margin: 20px;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles généraux */
+body {
+    background-image: url('fondk.jpg');
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+/* Conteneur principal */
+.conteneur {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.histoire {
+    color: darkgoldenrod;
+    /* Correction : la propriété correcte est 'font-size' au lieu de 'size' */
+    font-size: 25px;
+}
+
+/* Ligne séparatrice */
+.ligne-separatrice {
+    border: none;
+    border-top: 5px solid #931b1b;
+    margin: 20px 0;
+}
+
+/* Titre principal */
+h1 {
+    color: #dee7ec;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Texte de préface */
+.preface {
+    font-size: 35px;
+    font-family: 'Agbalumo';
+    color: whitesmoke;
+}
+
+.h-contenent {
+    display: flex;
+    color: rgb(59, 106, 106);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Modification : utilisation de 'Arial' pour la police */
+    color: #dee7ec;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+}

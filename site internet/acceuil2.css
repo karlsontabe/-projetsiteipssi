@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('Bailenson.otf') format('opentype'),
+        url('Bailenson.ttf') format('truetype');
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url("IPSSI SPORT.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a {
+    color: darkorchid;
+    padding: 0 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: 0 0 5px rgba(145, 60, 60, 0.7);
+}
+
+.logo span {
+    color: #3c0bee;
+    font-weight: bold;
+    font-size: 2rem;
+    box-shadow: #b8c7be;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 10px;
+    font-weight: bold;
+    /* Correction : La propriété font-weight nécessite une valeur */
+    transition: 0.6s ease;
+    /* Correction : Ajout de la propriété transition */
+}
+
+ul li a:hover {
+    background: #fff;
+    color: rgb(177, 40, 40);
+}
+
+ul li.active a {
+    background: #fff;
+    color: rgb(171, 23, 23);
+}
+
+.principale {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.Titre {
+    animation: Titre 2500s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+
+}
+
+
+@keyframes Titre {
+    0% {
+        color: #3c0bee;
+    }
+
+    20% {
+        color: aqua;
+    }
+
+    50% {
+        color: aliceblue;
+    }
+
+    80% {
+        color: #3c0bee;
+        transform: translateX(10);
+    }
+
+    100% {
+        color: #333333;
+        transform: translateX(-10);
+    }
+
+
+}
+
+
+.titre h1 {
+    color: #fff;
+    /* Correction : Ajout de deux points après color */
+    font-size: 70%;
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn {
+    transition: 0.6s ease;
+}
+
+
+
+
+.ft-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    top: 100%;
+}
+
+.ft-container a {
+    color: #333333;
+    text-decoration: none;
+
+}
